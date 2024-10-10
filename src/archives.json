@@ -1,0 +1,38 @@
+[
+  {
+    "id": "folder-1",
+    "name": "sujet_21",
+    "files": [
+      {
+        "id": "10283",
+        "name": "log_conversation_H3285",
+        "createdAt": "18-03-2016",
+        "icon": "tchat"
+      },
+      {
+        "id": "10247",
+        "name": "rapport_examen",
+        "createdAt": "16-03-2016",
+        "icon": "report"
+      },
+      {
+        "id": "08987",
+        "name": "avertissement",
+        "createdAt": "25-01-2016",
+        "icon": "mail"
+      },
+      {
+        "id": "08440",
+        "name": "mise_a_jour",
+        "createdAt": "03-06-2015",
+        "icon": "mail"
+      },
+      {
+        "id": "03265",
+        "name": "rapport_examen",
+        "createdAt": "14-12-2013",
+        "icon": "report"
+      }
+    ]
+  }
+]

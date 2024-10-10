@@ -1,0 +1,142 @@
+.archives {
+
+    .archives-table {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .table-header,
+    .archive-item {
+        display: grid;
+        grid-template-columns: 2fr 1fr; // Deux colonnes : Nom et Date
+        padding: 0.25rem 0;
+    }
+
+    .table-header {
+        border-bottom: 1px solid #000000;
+        font-weight: bold;
+    }
+
+    .archive-item {
+        &.folder {
+            font-weight: bold;
+        }
+
+        &.file {
+            margin-left: 1.5rem;
+
+
+
+        }
+    }
+
+    & svg {
+        margin-right: 5px;
+    }
+}
+
+.archive {
+
+
+    & h3 {
+        margin-bottom: 15px;
+    }
+
+    &-content {
+
+        & h1 {
+            font-size: 25px;
+        }
+
+        & h2 {
+            font-size: 20px;
+            font-weight: 800;
+        }
+
+        & h3 {
+            font-size: 20px;
+        }
+
+        & h2,
+        h3 {
+            margin: 0;
+            margin-top: 40px;
+        }
+
+        h4 {
+            margin-top: 15px;
+        }
+
+        .censored {
+            background-color: black;
+            pointer-events: none;
+            user-select: none;
+        }
+
+        .endReport {
+            background-color: black;
+            padding: 10px;
+            color: white;
+            width: 200px;
+            text-align: center;
+        }
+
+        & p {
+            margin: 0;
+            line-height: 30px;
+        }
+
+        & blockquote {
+            background-color: #000000;
+            color: white;
+            padding: 10px 20px;
+            width: 500px;
+            font-style: italic;
+        }
+
+        & pre {
+            padding: 10px;
+            background-color: rgb(208, 208, 208);
+        }
+
+        .col {
+            padding: 20px 0;
+            max-width: 50%;
+
+            &.mail {
+                margin-top: 20px;
+                border: black solid 1px;
+                background-color: rgb(232, 232, 232);
+                padding: 25px;
+                box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 0;
+
+            }
+        }
+
+
+        .messages {
+            & h3 {
+                margin: 0;
+            }
+
+            .message {
+                border: black solid 1px;
+                background-color: rgb(232, 232, 232);
+                padding: 25px;
+                box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 0;
+
+                &.speaker2 {
+                    background-color: rgb(206, 206, 206);
+
+                }
+            }
+        }
+    }
+
+    // & .back {
+    //     margin-top: 10px;
+    // }
+}
