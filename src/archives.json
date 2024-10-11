@@ -1,6 +1,84 @@
 [
   {
     "id": "folder-1",
+    "name": "rapports_automatiques",
+    "files": [
+      {
+        "id": "50876",
+        "name": "tour_elzane_présence_détecté",
+        "createdAt": "05-02-2028",
+        "icon": "report"
+      },
+      {
+        "id": "50875",
+        "name": "tour_elzane_présence_détecté",
+        "createdAt": "11-02-2021",
+        "icon": "report"
+      },
+      {
+        "id": "48210",
+        "name": "tour_bruxelles_présence_détecté",
+        "createdAt": "03-06-2019",
+        "icon": "report"
+      },
+      {
+        "id": "45032",
+        "name": "tour_londres_présence_détecté",
+        "createdAt": "27-08-2018",
+        "icon": "report"
+      },
+      {
+        "id": "42568",
+        "name": "tour_vienne_présence_détecté",
+        "createdAt": "15-03-2017",
+        "icon": "report"
+      },
+      {
+        "id": "10246",
+        "name": "tour_paris_présence_détecté",
+        "createdAt": "16-03-2016",
+        "icon": "report"
+      },
+      {
+        "id": "09945",
+        "name": "tour_elzane_présence_détecté",
+        "createdAt": "14-04-2015",
+        "icon": "report"
+      },
+      {
+        "id": "03546",
+        "name": "tour_amsterdam_présence_détecté",
+        "createdAt": "22-11-2010",
+        "icon": "report"
+      },
+      {
+        "id": "02497",
+        "name": "tour_elzane_présence_détecté",
+        "createdAt": "18-06-2009",
+        "icon": "report"
+      },
+      {
+        "id": "01798",
+        "name": "tour_milan_présence_détecté",
+        "createdAt": "09-09-2008",
+        "icon": "report"
+      },
+      {
+        "id": "01679",
+        "name": "tour_paris_présence_détecté",
+        "createdAt": "23-07-2005",
+        "icon": "report"
+      },
+      {
+        "id": "00456",
+        "name": "tour_paris_présence_détecté",
+        "createdAt": "01-01-2003",
+        "icon": "report"
+      }
+    ]
+  },
+  {
+    "id": "folder-2",
     "name": "sujet_21",
     "files": [
       {
@@ -23,7 +101,7 @@
       },
       {
         "id": "08440",
-        "name": "mise_a_jour",
+        "name": "mise_à_jour",
         "createdAt": "03-06-2015",
         "icon": "mail"
       },
