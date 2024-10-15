@@ -43,19 +43,18 @@ h3 {
 }
 
 .button {
-    & span {
+    & .name {
         display: inline-flex;
         align-items: center;
-    }
+        margin-right: 10px;
 
-    &:hover {
-        & span {
+        &:hover {
             background-color: #000000;
-            color: white;
+            color: white !important;
             cursor: pointer;
         }
-
     }
+
 
     & svg {
         margin-right: 2px;

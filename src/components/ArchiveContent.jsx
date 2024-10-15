@@ -41,8 +41,8 @@ export default function ArchiveContent() {
           <h3>
             archives/{archive.id}_{archive.name}/
           </h3>
-          <div className="button back" onClick={() => navigate("/archives")}>
-            <span>
+          <div className="button back">
+            <span className="name" onClick={() => navigate("/archives")}>
               <IoIosArrowBack />
               Retour aux archives
             </span>

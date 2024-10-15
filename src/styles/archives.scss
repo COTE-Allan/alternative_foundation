@@ -21,6 +21,7 @@
     }
 
     .archive-item {
+
         &.folder {
             font-weight: bold;
         }
@@ -28,9 +29,14 @@
         &.file {
             margin-left: 1.5rem;
 
+            & .name {
+                color: blue;
 
 
+            }
         }
+
+
     }
 
     & svg {
@@ -140,7 +146,7 @@
         }
     }
 
-    // & .back {
-    //     margin-top: 10px;
-    // }
+    & .back {
+        color: blue;
+    }
 }

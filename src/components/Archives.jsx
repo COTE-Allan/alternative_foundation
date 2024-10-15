@@ -40,12 +40,11 @@ export default function Archives() {
 
             {/* Liste des fichiers sous forme de lignes dans le tableau */}
             {folder.files.map((file) => (
-              <div
-                key={file.id}
-                className="archive-item file button"
-                onClick={() => navigate(`/archives/${file.id}`)}
-              >
-                <span className="name">
+              <div key={file.id} className="archive-item file button">
+                <span
+                  className="name"
+                  onClick={() => navigate(`/archives/${file.id}`)}
+                >
                   {icons[file.icon]}
                   {file.id}_{file.name}/
                 </span>
