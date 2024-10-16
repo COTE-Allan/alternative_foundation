@@ -112,5 +112,29 @@
         "icon": "report"
       }
     ]
+  },
+  {
+    "id": "folder-3",
+    "name": "sujet_3",
+    "files": [
+      {
+        "id": "42689",
+        "name": "log_conversation_K4687",
+        "createdAt": "12-07-2017",
+        "icon": "tchat"
+      },
+      {
+        "id": "04232",
+        "name": "rapport_examen",
+        "createdAt": "15-03-2014",
+        "icon": "report"
+      },
+      {
+        "id": "02865",
+        "name": "rapport_examen",
+        "createdAt": "02-08-2010",
+        "icon": "report"
+      }
+    ]
   }
 ]
